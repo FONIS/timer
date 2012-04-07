@@ -1,0 +1,9 @@
+body { background-image: url("../img/furley_bg.png"); background-repeat: repeat; }
+.centered { text-align: center; }
+.margin { height: 20em; }
+.buttons { margin-top: 16em; }
+#timer { 
+  font-size:20em;
+  font-weight:bold;
+}
+button { width:148px; }
