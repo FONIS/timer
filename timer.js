@@ -61,5 +61,9 @@ function start()
 function reset()
 {
   count = 15 * 60;
-  displayTime(count);
+
+  $('#timer').fadeOut(200, function () {
+    displayTime(count);
+    $(this).fadeIn();
+  })
 }
