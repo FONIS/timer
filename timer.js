@@ -13,7 +13,7 @@ function init()
 
 function timer()
 {
-  if (count <=0)
+  if (count <= 0)
     clearInterval(timerId);
   else
     count--;
