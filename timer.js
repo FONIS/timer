@@ -42,7 +42,7 @@ function addZero(num)
 
 function pause()
 {
-  $('#pause').fadeOut(300, function () {
+  $('#pause').fadeOut(200, function () {
     $('#start').fadeIn();
   });
 
@@ -51,7 +51,7 @@ function pause()
 
 function start()
 {
-  $('#start').fadeOut(300, function () {
+  $('#start').fadeOut(200, function () {
     $('#pause').fadeIn();
   });
 
